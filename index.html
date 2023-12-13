@@ -1,0 +1,30 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="https://js.tosspayments.com/v1"></script>
+</head>
+<body>
+<section>
+    <span>Buy the Key for Decrypt your file!</span>
+    <br>
+    <span>That is only 1,000,000 dollar!</span>
+    <br><br>
+    <button id="payment-button">Purchase for Key</button>
+</section>
+<script>
+    var clientKey = 'test_ck_0RnYX2w532e2vpG2MpY18NeyqApQ'
+    var tossPayments = TossPayments(clientKey)
+    var button = document.getElementById('payment-button') // 결제하기 버튼
+    button.addEventListener('click', function () {
+        tossPayments.requestPayment('카드', {
+            amount: 10000,
+            orderId: '121212',
+            orderName: 'Key for Decrypt',
+            customerName: 'User',
+            successUrl: 'https://youtube.com',
+            failUrl: 'https://naver.com',
+        })
+    })
+</script>
+</body>
+</html>
