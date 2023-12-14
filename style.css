@@ -1,0 +1,157 @@
+.frame {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .frame .overlap-wrapper {
+    background-color: #ffffff;
+    width: 1336px;
+    height: 768px;
+  }
+  
+  .frame .overlap {
+    position: relative;
+    height: 768px;
+    background-image: url(image-1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .frame .rectangle {
+    position: absolute;
+    width: 999px;
+    height: 686px;
+    top: 45px;
+    left: 168px;
+  }
+  
+  .frame .text-wrapper {
+    position: absolute;
+    top: 80px;
+    left: 537px;
+    margin-bottom: 70px;
+    text-shadow: 0px 0px 6px #00000099;
+    font-family: "Abhaya Libre Medium-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 26px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    font-weight: bold;
+  }
+  
+  .frame .info-box {
+    position: absolute;
+    width: 684px;
+    height: 392px;
+    top: 157px;
+    left: 451px;
+  }
+  
+  .frame .overlap-group {
+    position: relative;
+    width: 682px;
+    height: 452px;
+    background-color: #0000004c;
+    border-radius: 18px;
+  
+    box-shadow: inset 0px 4px 10px #00000033;
+  }
+  
+  .frame .what-happened-to-my {
+    position: absolute;
+    width: 500px;
+    top: 19px;
+    left: 23px;
+    text-shadow: 0px 0px 6px #0000004c;
+    font-family: "Abhaya L  ibre ExtraBold-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .span {
+    font-family: "Abhaya Libre ExtraBold-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+  }
+  
+  .frame .text-wrapper-2 {
+    font-family: "Abhaya Libre Medium-Regular", Helvetica;
+    font-size: 15px;    
+  }
+  
+  .frame .line {
+    position: absolute;
+    width: 4px;
+    height: 189px;
+    top: 82px;
+    left: 670px;
+  }
+
+  .frame .buttons {
+    position: absolute;
+    width: 606px;
+    height: 33px;
+    top: 568px;
+    left: 489px;
+  }
+  
+  .frame .check-payment {
+    width: 608px;
+    height: 33px;
+  }
+
+  
+  .frame .div {
+    position: absolute;
+    width: 242px;
+    top: 7px;
+    left: 183px;
+    text-shadow: 0px 0px 6px #00000066;
+    font-family: "Abhaya Libre ExtraBold-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .lock-icon {
+    position: absolute;
+    width: 168px;
+    height: 172px;
+    top: 298px;
+    left: 249px;
+    background-color: #0000004c;
+    border-radius: 15px;
+    box-shadow: 0px 0px 6px 1px #0000001a;
+  }
+  
+  .frame .lock {
+    position: absolute;
+    width: 115px;
+    height: 118px;
+    top: 23px;
+    left: 25px;
+  }
+  
+  #payment-button{
+    background-color: #0000004c;
+    width: 606px;
+    height: 33px;
+    box-shadow: 0px 1px 6px #0000001a;
+    border-radius: 9px;
+    border: 10px solid #00000000;
+    margin-left: -183px;
+    margin-top: 40px;
+    color: #ffffff;
+  }

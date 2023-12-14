@@ -1,30 +1,74 @@
+<!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
     <script src="https://js.tosspayments.com/v1"></script>
-</head>
-<body>
-<section>
-    <span>Buy the Key for Decrypt your file!</span>
-    <br>
-    <span>That is only 1,000,000 dollar!</span>
-    <br><br>
-    <button id="payment-button">Purchase for Key</button>
-</section>
-<script>
-    var clientKey = 'test_ck_0RnYX2w532e2vpG2MpY18NeyqApQ'
-    var tossPayments = TossPayments(clientKey)
-    var button = document.getElementById('payment-button') // 결제하기 버튼
-    button.addEventListener('click', function () {
-        tossPayments.requestPayment('카드', {
-            amount: 10000,
-            orderId: '121212',
-            orderName: 'Key for Decrypt',
-            customerName: 'User',
-            successUrl: 'https://youtube.com',
-            failUrl: 'https://naver.com',
+  </head>
+  <body>
+    <div class="frame">
+      <div class="overlap-wrapper">
+        <div class="overlap">
+          <img class="rectangle" src="image 1.png " />
+          <p class="text-wrapper">Oops, your files have been encrypted!</p>
+          <div class="info-box">
+            <div class="overlap-group">
+              <p class="what-happened-to-my">
+                <span class="span"><b>What Happened to My Computer?</b><br /></span>
+                <span class="text-wrapper-2"
+                  >Your important files are encrypted.<br />Many of your documents, photos, videos, databases and other
+                  files are no longer accessible because they have been encrypted. Maybe you are busy looking for a
+                  way to recover your files, but do not waste your time. Nobody can recover your files without our
+                  decryption service.<br /><br
+                /></span>
+                <span class="span"><b>I Recover My Files?</b> <br /></span>
+                <span class="text-wrapper-2"
+                  >Sure. We guarantee that you can recover all your files safely and easily. 
+                  But you have not so enough time. if you want to decrypt all your files, you need to pay.<br /><br
+                /></span>
+                <span class="span"><b>Can I Pay?</b> <br /></span>
+                <span class="text-wrapper-2"
+                  >Payment for decryption can be made using credit or check cards. Buy a decryption key for just $1! 
+                  If you pay successfully, you will receive a recovery key.<br
+                /><br></span>
+                <span class="span"><b>What to do after receiving the key</b> <br /></span>
+                <span class="text-wrapper-2"
+                  >If you have successfully purchased a decryption key, you can acces   s the virus that encrypted your files
+                  and enter the decryption key you purchased. Everything will return to the way it was before.<br
+                /></span>
+                <span class="span"><br /></span>
+                <span class="text-wrapper-2"><br /><br /></span>
+              </p>
+              <img class="line" src="img/line-1.svg" />
+            </div>
+          </div>
+          <div class="buttons">
+            <div class="check-payment">
+              <div class="check-payment-wrapper">
+                <div class="div">
+                    <button id="payment-button">Purchase for Key</button>
+                </div> 
+              </div>
+            </div>
+          </div>
+          <div class="lock-icon"><img class="lock" src="Lock icon.svg" /></div>
+        </div>
+      </div>
+    </div>
+    <script>
+        var clientKey = 'test_ck_0RnYX2w532e2vpG2MpY18NeyqApQ'
+        var tossPayments = TossPayments(clientKey)
+        var button = document.getElementById('payment-button')
+        button.addEventListener('click', function () {
+            tossPayments.requestPayment('카드', {
+                amount: 1000,
+                orderId: '20060711',
+                orderName: 'Key for Decrypt',
+                customerName: 'User',
+                successUrl: 'https://youtube.com',
+                failUrl: 'https://naver.com',
+            })
         })
-    })
-</script>
-</body>
+    </script>
+  </body>
 </html>
