@@ -22,24 +22,10 @@
   
   .frame .rectangle {
     position: absolute;
-    width: 999px;
+    width: 1257px;
     height: 686px;
     top: 38px;
-    left: 173px;
-  }
-  
-  .frame .text-wrapper {
-    position: absolute;
-    top: 200px;
-    left: 247px;
-    text-shadow: 0px 0px 6px #00000099;
-    font-family: "ABeeZee-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 40px;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
+    left: 45px;
   }
   
   .frame .buttons {
@@ -47,7 +33,7 @@
     width: 99px;
     height: 99px;
     top: 327px;
-    left: 453px;
+    left: 401px;
   }
   
   .frame .decrypt {
@@ -64,11 +50,11 @@
     box-shadow: 0px 1px 6px #0000001a;
   }
   
-  .frame .div {
+  .frame .text-wrapper {
+    top: 5px;
+    left: 25px;
     position: absolute;
     width: 66px;
-    top: 6px;
-    left: 24px;
     text-shadow: 0px 0px 6px #00000066;
     font-family: "ABeeZee-Regular", Helvetica;
     font-weight: 400;
@@ -80,15 +66,15 @@
   }
   
   .frame .decrypt-wrapper {
-    width: 99px;
-    top: 327px;
-    left: 713px;
+    left: 113px;
     position: absolute;
+    width: 99px;
     height: 99px;
+    top: 327px;
   }
   
-  .frame .text-wrapper-2 {
-    top: 1px;
+  .frame .div {
+    top: 5px;
     left: 27px;
     position: absolute;
     width: 66px;
@@ -102,24 +88,47 @@
     white-space: nowrap;
   }
   
-  .frame .buttons-2 {
-    width: 227px;
-    top: 327px;
-    left: 843px;
+  .frame .div-wrapper {
+    left: 257px;
     position: absolute;
+    width: 99px;
     height: 99px;
+    top: 327px;
+  }
+  
+  .frame .text-wrapper-2 {
+    position: absolute;
+    width: 66px;
+    top: 5px;
+    left: 26px;
+    text-shadow: 0px 0px 6px #00000066;
+    font-family: "ABeeZee-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 80px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
   }
   
   .frame .overlap-group-wrapper {
+    left: 685px;
     position: absolute;
     width: 101px;
     height: 99px;
-    top: 0;
-    left: 0;
+    top: 327px;
+  }
+  
+  .frame .buttons-2 {
+    left: 829px;
+    position: absolute;
+    width: 99px;
+    height: 99px;
+    top: 327px;
   }
   
   .frame .text-wrapper-3 {
-    top: 6px;
+    top: 5px;
     left: 28px;
     position: absolute;
     width: 66px;
@@ -133,38 +142,41 @@
     white-space: nowrap;
   }
   
-  .frame .div-wrapper {
-    width: 99px;
-    top: 0;
-    left: 128px;
+  .frame .decrypt-2 {
+    left: 969px;
     position: absolute;
+    width: 101px;
     height: 99px;
+    top: 327px;
   }
   
   .frame .buttons-3 {
+    left: 1109px;
+    position: absolute;
     width: 99px;
-    top: 327px;
-    left: 583px;
-    position: absolute;
     height: 99px;
+    top: 327px;
   }
   
-  .frame .lock-icon {
+  .frame .buttons-4 {
+    left: 541px;
     position: absolute;
-    width: 168px;
-    height: 172px;
-    top: 286px;
-    left: 235px;
-    background-color: #0000004c;
-    border-radius: 15px;
-    box-shadow: 0px 0px 6px 1px #0000001a;
+    width: 99px;
+    height: 99px;
+    top: 327px;
   }
   
-  .frame .lock {
+  .frame .text-wrapper-4 {
+    top: 6px;
+    left: 24px;
     position: absolute;
-    width: 115px;
-    height: 118px;
-    top: 23px;
-    left: 25px;
+    width: 66px;
+    text-shadow: 0px 0px 6px #00000066;
+    font-family: "ABeeZee-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 80px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
   }
-  
